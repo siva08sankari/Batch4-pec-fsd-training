@@ -1,0 +1,127 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f2f2f2;
+}
+
+.container {
+    width: 90%;
+
+    max-width: 700px;
+
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    margin-top: 0;
+
+    text-align: center;
+}
+
+input,
+select {
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    margin-top: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    background-color: #333;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#error {
+    color: red;
+
+    text-align: center;
+}
+
+table {
+    width: 100%;
+
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+
+    padding: 10px;
+
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+
+    color: white;
+}
+
+.summary p {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    padding: 8px;
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: 95%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+}

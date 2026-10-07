@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Weather Dashboard</h1>
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="city"
+                placeholder="Enter city name"
+            >
+
+            <button onclick="getWeather()">Search</button>
+        </div>
+
+        <p id="error"></p>
+
+        <div id="weather">
+
+            <h2 id="cityName">Weather Information</h2>
+
+            <p>
+                Temperature:
+                <span id="temperature">--</span>
+            </p>
+
+            <p>
+                Weather:
+                <span id="condition">--</span>
+            </p>
+
+            <p>
+                Humidity:
+                <span id="humidity">--</span>
+            </p>
+
+            <p>
+                Wind Speed:
+                <span id="wind">--</span>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
